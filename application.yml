@@ -1,15 +1,15 @@
 spring:
   profiles:
     active:
-      - dev
+    - dev
 ---
 spring:
-  profiles: dev      #¿ª·¢»·¾³
+  profiles: dev      #å¼€å‘ç¯å¢ƒ
   application:
     name: microservicecloud-config-zyh-dev
 ---
 spring:
-  profiles: test     #²âÊÔ»·¾³
+  profiles: test     #æµ‹è¯•ç¯å¢ƒ
   application:
     name: microservicecloud-config-zyh-test
-#    Çë±£´æÎªUTF-8
+#    è¯·ä¿å­˜ä¸ºUTF-8
