@@ -41,11 +41,6 @@ info:
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
 ---
-spring:
-  profiles:
-    active:
-    - dev
----
 server:
   port: 8001
 spring:
