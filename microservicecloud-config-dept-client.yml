@@ -29,7 +29,7 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/            #将提供者的服务注册到Eureka服务中心
+      defaultZone: http://eureka7001.com:7001/eureka            #将提供者的服务注册到Eureka服务中心
   instance:
     instance-id: dept-8001.com                 #自定义服务名称信息
     prefer-ip-address: true                                 #注册的时候使用ip进行注册
@@ -67,7 +67,7 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/            #将提供者的服务注册到Eureka服务中心
+      defaultZone: http://eureka7001.com:7001/eureka            #将提供者的服务注册到Eureka服务中心
   instance:
     instance-id: dept-8001.com                 #自定义服务名称信息
     prefer-ip-address: true                                 #注册的时候使用ip进行注册
